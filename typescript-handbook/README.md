@@ -6,7 +6,7 @@ A more complete, official-style TypeScript handbook organized into chapters.
 
 - [01. Introduction and Setup](./chapters/01-introduction-and-setup.md)
 - [02. Core Types and Inference](./chapters/02-core-types-and-inference.md)
-- [03. Runtime Rules: Truthiness, Equality, and Comparison](./chapters/03-runtime-rules-truthiness-and-comparison.md)
+- [03. Runtime Rules: Operators, Truthiness, Equality, and Comparison](./chapters/03-runtime-rules-truthiness-and-comparison.md)
 - [04. Functions and Higher-Order Functions](./chapters/04-functions-and-higher-order-functions.md)
 - [05. Objects, Interfaces, and Object-Oriented Programming](./chapters/05-objects-interfaces-and-oop.md)
 - [06. Unions, Generics, and Type Operators](./chapters/06-unions-generics-and-type-operators.md)
@@ -37,7 +37,7 @@ Learn the basics of the language:
 - setup
 - primitive types
 - inference
-- runtime rules
+- runtime rules, operators, and arithmetic
 - functions
 - higher-order functions
 

@@ -8,6 +8,10 @@ A compact dictionary of common TypeScript and JavaScript terms.
 
 An explicit type written by the programmer.
 
+### arithmetic operator
+
+A symbol that performs mathematical computation on numeric values at runtime (`+`, `-`, `*`, `/`, `%`, `**`). Note that in TypeScript/JavaScript, division is `/`, while `//` is single-line comment syntax.
+
 ```ts
 const age: number = 20;
 ```
@@ -124,6 +128,10 @@ Multiple call signatures for one implementation.
 
 A reusable type pattern that keeps information about the value flowing through it.
 
+### guard clause
+
+A conditional statement placed early in a function to exit early (via `return` or `throw`) when preconditions are not met, preventing deep `if/else` nesting.
+
 ```ts
 function identity<T>(value: T): T {
   return value;
@@ -215,6 +223,10 @@ Specifically `null` or `undefined`.
 ### object identity
 
 Whether two variables point to the exact same object in memory.
+
+### operator
+
+A token that represents a computation or transformation. In TypeScript, operators exist at two levels: **runtime operators** (JavaScript operators like `+`, `-`, `*`, `/`, `===`, `&&`, `??`, `?.`) and **type-level operators** (compile-time type transformations like `keyof`, `typeof`, `|`, `&`, `as`, `satisfies`, `extends`, `infer`).
 
 ### overload signature
 

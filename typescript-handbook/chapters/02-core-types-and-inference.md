@@ -13,12 +13,24 @@ console.log(username.toUpperCase());
 
 ### `number`
 
+TypeScript's `number` type represents 64-bit floating-point numbers. It supports decimal, floating-point, hexadecimal (`0x`), octal (`0o`), and **binary** (`0b`) representations:
+
 ```ts
 const price: number = 19.99;
+const count: number = 42;
+const binaryByte: number = 0b1010_0110; // Binary literal (166 in decimal)
+const hexColor: number = 0xff;          // Hexadecimal literal (255)
+
 console.log(price.toFixed(2));
+console.log(binaryByte);
 ```
 
-> Output: `19.99`
+> Output:
+>
+> ```text
+> 19.99
+> 166
+> ```
 
 ### `boolean`
 
